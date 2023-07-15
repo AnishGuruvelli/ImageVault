@@ -61,17 +61,20 @@ To run the ImageVault application locally, follow these steps:
     npm install
     ```
     
-5. Configure environment variables: Create a **`.env`** file in the root directory and set the required environment variables based on the provided examples or specific instructions.
-6. Start the backend server: Run the following command to start the Node.js backend server:
+5. Configure environment variables: Create a **`.env`** file in the root directory and set the required environment variables:
+   ```
+   MONGO_URL, JWT_SECRET, and PORT.
+   ```
+7. Start the backend server: Run the following command to start the Node.js backend server:
     
     ```
     npm start
     ```
     
-7. Start the frontend application: Open a new terminal window, navigate to the project directory, and run the following command to start the React frontend:
+8. Start the frontend application: Open a new terminal window, navigate to the project directory, and run the following command to start the React frontend:
     
     ```
     npm start
     ```
     
-8. Access the application: Open your web browser and visit **`http://localhost:3000`** to access the ImageVault application.
+9. Access the application: Open your web browser and visit **`http://localhost:3000`** to access the ImageVault application.
