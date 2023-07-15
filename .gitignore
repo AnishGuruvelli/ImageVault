@@ -3,3 +3,6 @@ datamodel.jpg
 
 # Ignore notes.txt file
 notes.txt
+
+# Ignore all .env files
+*.env
